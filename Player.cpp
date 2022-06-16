@@ -5,7 +5,7 @@ using namespace std;
 void Player::PrintInfo()
 {
 	cout << "-------------------------------------" << endl;
-	cout << "[플레이어 정보] " << "HP: " << hp << " ATT: " << attack << " DEF: " << defence << endl;
+	cout << "l플레이어 정보l " << "HP: " << hp << " ATT: " << attack << " DEF: " << defence << endl;
 	cout << "-------------------------------------" << endl;
 }
 

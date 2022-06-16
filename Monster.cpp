@@ -5,7 +5,7 @@ using namespace std;
 void Monster::PrintInfo()
 {
 	cout << "-------------------------------------" << endl;
-	cout << "[몬스터 정보] " << "HP: " << hp << " ATT: " << attack << " DEF: " << defence << endl;
+	cout << "l몬스터 정보l " << "HP: " << hp << " ATT: " << attack << " DEF: " << defence << endl;
 	cout << "-------------------------------------" << endl;
 }
 
