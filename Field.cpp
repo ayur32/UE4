@@ -105,7 +105,7 @@ void Field::StartBattle(Player* player)
 					player->attack = player->maxattack;
 					cout << "최대 공격력에 도달하였습니다." << endl;
 				}
-				else cout << "공격력이 " << monster->monsterType <<"증가하였습니다." << endl;
+				else cout << "공격력이 " << monster->monsterType * 2 <<"증가하였습니다." << endl;
 				break;
 			}
 			else if (num - 48 == 2) {
@@ -114,12 +114,12 @@ void Field::StartBattle(Player* player)
 					player->defence = player->defence;
 					cout << "최대 방어력에 도달하였습니다." << endl;
 				}
-				else cout << "방어력이 " << monster->monsterType << "증가하였습니다." << endl;
+				else cout << "방어력이 " << monster->monsterType * 2 << "증가하였습니다." << endl;
 				break;
 			}
 			else if (num - 48 == 3) {
 				player->maxhp += monster->monsterType * 2;
-				cout << "HP가 " << monster->monsterType << "증가하였습니다." << endl;
+				cout << "HP가 " << monster->monsterType * 2 << "증가하였습니다." << endl;
 				break;
 			}
 			else cout << "다시 입력해주세요." << endl;
