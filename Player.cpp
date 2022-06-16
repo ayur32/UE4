@@ -1,15 +1,15 @@
-#include "Player.h"
+ï»¿#include "Player.h"
 #include <iostream>
 using namespace std;
 
 void Player::PrintInfo()
 {
 	cout << "-------------------------------------" << endl;
-	cout << "lÇÃ·¹ÀÌ¾î Á¤º¸l " << "HP: " << hp << " ATT: " << attack << " DEF: " << defence << endl;
+	cout << "lìºë¦­í„° ì •ë³´l " << "HP: " << hp << " ATT: " << attack << " DEF: " << defence << endl;
 	cout << "-------------------------------------" << endl;
 }
 
 void Player::PrintHp()
 {
-	cout << "ÇÃ·¹ÀÌ¾î HP: " << hp << "\n" << endl;
+	cout << "í”Œë ˆì´ì–´ HP: " << hp << "\n" << endl;
 }

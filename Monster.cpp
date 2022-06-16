@@ -1,15 +1,15 @@
-#include "Monster.h"
+ï»¿#include "Monster.h"
 #include <iostream>
 using namespace std;
 
 void Monster::PrintInfo()
 {
 	cout << "-------------------------------------" << endl;
-	cout << "l¸ó½ºÅÍ Á¤º¸l " << "HP: " << hp << " ATT: " << attack << " DEF: " << defence << endl;
+	cout << "lëª¬ìŠ¤í„° ì •ë³´l " << "HP: " << hp << " ATT: " << attack << " DEF: " << defence << endl;
 	cout << "-------------------------------------" << endl;
 }
 
 void Monster::PrintHp()
 {
-	cout << "¸ó½ºÅÍ HP: " << hp << "\n" << endl;
+	cout << "ëª¬ìŠ¤í„° HP: " << hp << "\n" << endl;
 }
